@@ -211,7 +211,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "pdf":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 {" "}
                                 <Icon name="file pdf" color="red" size="huge" />
@@ -220,7 +220,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "docx":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <Icon
                                   name="file word"
@@ -232,7 +232,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "pptx":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <Icon
                                   name="file powerpoint"
@@ -244,7 +244,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "xlsx":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <Icon
                                   name="file excel outline"
@@ -256,7 +256,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "zip":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <Icon name="zip" size="huge" />
                               </a>
@@ -264,7 +264,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "js":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <Icon name="js" color="yellow" size="huge" />
                               </a>
@@ -272,7 +272,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "php":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <Icon name="zip" color="blue" size="huge" />
                               </a>
@@ -280,7 +280,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "txt":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <Icon
                                   name="file text"
@@ -293,7 +293,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "jpg":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <img
                                   style={{
@@ -301,7 +301,7 @@ const ENDPOINT = "http://localhost:5000/";
                                     width: "50px",
                                     height: "50px",
                                   }}
-                                  src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                  src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                   alt={`scan`}
                                 />
                               </a>
@@ -309,7 +309,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "jpeg":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <img
                                   style={{
@@ -317,7 +317,7 @@ const ENDPOINT = "http://localhost:5000/";
                                     width: "50px",
                                     height: "50px",
                                   }}
-                                  src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                  src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                   alt={`scan`}
                                 />
                               </a>
@@ -325,7 +325,7 @@ const ENDPOINT = "http://localhost:5000/";
                           case "png":
                             return (
                               <a
-                                href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               >
                                 <img
                                   style={{
@@ -333,7 +333,7 @@ const ENDPOINT = "http://localhost:5000/";
                                     width: "50px",
                                     height: "50px",
                                   }}
-                                  src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                  src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                   alt={`scan`}
                                 />
                               </a>
@@ -410,7 +410,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "pdf":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         {" "}
                                         <Icon
@@ -423,7 +423,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "docx":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <Icon
                                           name="file word"
@@ -435,7 +435,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "pptx":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <Icon
                                           name="file powerpoint"
@@ -447,7 +447,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "xlsx":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <Icon
                                           name="file excel outline"
@@ -459,7 +459,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "zip":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <Icon name="zip" size="huge" />
                                       </a>
@@ -467,7 +467,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "js":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <Icon
                                           name="js"
@@ -479,7 +479,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "php":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <Icon
                                           name="zip"
@@ -491,7 +491,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "txt":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <Icon
                                           name="file text"
@@ -504,7 +504,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "jpg":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <img
                                           style={{
@@ -512,7 +512,7 @@ const ENDPOINT = "http://localhost:5000/";
                                             width: "50px",
                                             height: "50px",
                                           }}
-                                          src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           alt={`scan`}
                                         />
                                       </a>
@@ -520,7 +520,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "jpeg":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <img
                                           style={{
@@ -528,7 +528,7 @@ const ENDPOINT = "http://localhost:5000/";
                                             width: "50px",
                                             height: "50px",
                                           }}
-                                          src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           alt={`scan`}
                                         />
                                       </a>
@@ -536,7 +536,7 @@ const ENDPOINT = "http://localhost:5000/";
                                   case "png":
                                     return (
                                       <a
-                                        href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                        href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                       >
                                         <img
                                           style={{
@@ -544,7 +544,7 @@ const ENDPOINT = "http://localhost:5000/";
                                             width: "50px",
                                             height: "50px",
                                           }}
-                                          src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           alt={`scan`}
                                         />
                                       </a>

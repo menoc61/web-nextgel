@@ -107,7 +107,7 @@ export default function TaskFileDetail() {
                       case "pdf":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             {" "}
                             <Icon name="file pdf" color="red" size="massive" />
@@ -116,7 +116,7 @@ export default function TaskFileDetail() {
                       case "docx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="file word" color="blue" size="massive" />
                           </a>
@@ -124,7 +124,7 @@ export default function TaskFileDetail() {
                       case "pptx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon
                               name="file powerpoint"
@@ -136,7 +136,7 @@ export default function TaskFileDetail() {
                       case "xlsx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon
                               name="file excel outline"
@@ -148,7 +148,7 @@ export default function TaskFileDetail() {
                       case "zip":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="zip" size="massive" />
                           </a>
@@ -156,7 +156,7 @@ export default function TaskFileDetail() {
                       case "js":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="js" color="yellow" size="massive" />
                           </a>
@@ -164,7 +164,7 @@ export default function TaskFileDetail() {
                       case "php":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="zip" color="blue" size="massive" />
                           </a>
@@ -172,7 +172,7 @@ export default function TaskFileDetail() {
                       case "txt":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="file text" size="massive" color="blue" />
                           </a>
@@ -181,7 +181,7 @@ export default function TaskFileDetail() {
                       case "jpg":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -189,7 +189,7 @@ export default function TaskFileDetail() {
                                 width: "250px",
                                 height: "100px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>
@@ -197,7 +197,7 @@ export default function TaskFileDetail() {
                       case "jpeg":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -205,7 +205,7 @@ export default function TaskFileDetail() {
                                 width: "250px",
                                 height: "100px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>
@@ -213,7 +213,7 @@ export default function TaskFileDetail() {
                       case "png":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -221,7 +221,7 @@ export default function TaskFileDetail() {
                                 width: "250px",
                                 height: "100px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>

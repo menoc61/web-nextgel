@@ -149,7 +149,7 @@ console.log(endloader);
                       width: "50px",
                       height: "50px",
                     }}
-                    src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${image}?alt=media`}
+                    src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${image}?alt=media`}
                     alt={`scan`}
                   />
                 );
@@ -162,7 +162,7 @@ console.log(endloader);
                       width: "50px",
                       height: "50px",
                     }}
-                    src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${image}?alt=media`}
+                    src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${image}?alt=media`}
                     alt={`scan`}
                   />
                 );
@@ -174,7 +174,7 @@ console.log(endloader);
                       width: "50px",
                       height: "50px",
                     }}
-                    src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${image}?alt=media`}
+                    src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${image}?alt=media`}
                     alt={`scan`}
                   />
                 );

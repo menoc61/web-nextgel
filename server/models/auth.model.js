@@ -42,7 +42,7 @@ const userScheama = new mongoose.Schema(
     picture: {
       type: String,
       default:
-        "https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/1618998894766-avatarCloser.jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/1618998894766-avatarCloser.jpg?alt=media",
     },
     resetPasswordLink: {
       data: String,

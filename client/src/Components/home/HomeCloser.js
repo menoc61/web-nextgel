@@ -36,7 +36,7 @@ const HomepageHeading = ({ mobile }) => (
   <Container text>
     <Header
       as="h1"
-      content="Smart-Classroom-Closer"
+      content="Smart-Classroom-NextGEL"
       inverted
       style={{
         fontSize: mobile ? "2em" : "4em",
@@ -241,7 +241,7 @@ const HomepageLayout = () => (
               Virtual Classroom
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              Closer Smart Virtual Classroom is A collaborative web conferencing
+              NextGEL Smart Virtual Classroom is A collaborative web conferencing
               tool with an <span>online whiteboard</span>, <span>breakout rooms</span>, and <span>screen sharing</span>
               capabilities for teachers and tutors who want to conduct highly
               interactive live online teaching sessions
@@ -253,7 +253,7 @@ const HomepageLayout = () => (
               rounded
               size="large"
               alt="closer.png"
-              title="Logo Closer"
+              title="Logo NextGEL"
               src={process.env.PUBLIC_URL + "/closer.png"}
             />
           </Grid.Column>
@@ -360,7 +360,7 @@ const HomepageLayout = () => (
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
-              <p>© 2020-2021 <span>Closer</span> is owned and operated by NoLimits</p>
+              <p>© 2022-2023 <span>NextGEL</span> is owned and operated by IAI DEV</p>
             </Grid.Column>
           </Grid.Row>
         </Grid>

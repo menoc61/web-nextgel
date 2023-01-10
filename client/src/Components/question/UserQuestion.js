@@ -108,7 +108,7 @@ const morQuestion =  (nb) => {
                       case "pdf":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             {" "}
                             <Icon name="file pdf" color="red" size="huge" />
@@ -117,7 +117,7 @@ const morQuestion =  (nb) => {
                       case "docx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="file word" color="blue" size="huge" />
                           </a>
@@ -125,7 +125,7 @@ const morQuestion =  (nb) => {
                       case "pptx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon
                               name="file powerpoint"
@@ -137,7 +137,7 @@ const morQuestion =  (nb) => {
                       case "xlsx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon
                               name="file excel outline"
@@ -149,7 +149,7 @@ const morQuestion =  (nb) => {
                       case "zip":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="zip" size="huge" />
                           </a>
@@ -157,7 +157,7 @@ const morQuestion =  (nb) => {
                       case "js":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="js" color="yellow" size="huge" />
                           </a>
@@ -165,7 +165,7 @@ const morQuestion =  (nb) => {
                       case "php":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="zip" color="blue" size="huge" />
                           </a>
@@ -173,7 +173,7 @@ const morQuestion =  (nb) => {
                       case "txt":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="file text" size="huge" color="blue" />
                           </a>
@@ -182,7 +182,7 @@ const morQuestion =  (nb) => {
                       case "jpg":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -190,7 +190,7 @@ const morQuestion =  (nb) => {
                                 width: "50px",
                                 height: "50px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>
@@ -198,7 +198,7 @@ const morQuestion =  (nb) => {
                       case "jpeg":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -206,7 +206,7 @@ const morQuestion =  (nb) => {
                                 width: "50px",
                                 height: "50px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>
@@ -214,7 +214,7 @@ const morQuestion =  (nb) => {
                       case "png":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -222,7 +222,7 @@ const morQuestion =  (nb) => {
                                 width: "50px",
                                 height: "50px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>

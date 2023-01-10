@@ -50,7 +50,7 @@ const Login = ({ history }) => {
         informParent(res);
       })
       .catch((error) => {
-        console.log("GOOGLE SIGNIN ERROR", error.response);
+        console.log("Facebook SIGNIN ERROR", error.response);
       });
   };
   const responseGoogle = (response) => {
@@ -84,7 +84,7 @@ const Login = ({ history }) => {
             isAuth() && isAuth().role === "Teacher"
               ? history.push("/class")
               : history.push("/class");
-         //   toast.success(`Hey ${res.data.user.name}, Welcome back!`);
+             toast.success(`Hey ${res.data.user.name}, Welcome back!`);
           });
         })
         .catch((err) => {

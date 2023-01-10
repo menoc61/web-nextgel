@@ -136,7 +136,7 @@ export default function QuestionComponent(props) {
                       case "pdf":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             {" "}
                             <Icon name="file pdf" color="red" size="huge" />
@@ -145,7 +145,7 @@ export default function QuestionComponent(props) {
                       case "docx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="file word" color="blue" size="huge" />
                           </a>
@@ -153,7 +153,7 @@ export default function QuestionComponent(props) {
                       case "pptx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon
                               name="file powerpoint"
@@ -165,7 +165,7 @@ export default function QuestionComponent(props) {
                       case "xlsx":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon
                               name="file excel outline"
@@ -177,7 +177,7 @@ export default function QuestionComponent(props) {
                       case "zip":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="zip" size="huge" />
                           </a>
@@ -185,7 +185,7 @@ export default function QuestionComponent(props) {
                       case "js":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="js" color="yellow" size="huge" />
                           </a>
@@ -193,7 +193,7 @@ export default function QuestionComponent(props) {
                       case "php":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="zip" color="blue" size="huge" />
                           </a>
@@ -201,7 +201,7 @@ export default function QuestionComponent(props) {
                       case "txt":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <Icon name="file text" size="huge" color="blue" />
                           </a>
@@ -210,7 +210,7 @@ export default function QuestionComponent(props) {
                       case "jpg":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -218,7 +218,7 @@ export default function QuestionComponent(props) {
                                 width: "50px",
                                 height: "50px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>
@@ -226,7 +226,7 @@ export default function QuestionComponent(props) {
                       case "jpeg":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -234,7 +234,7 @@ export default function QuestionComponent(props) {
                                 width: "50px",
                                 height: "50px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>
@@ -242,7 +242,7 @@ export default function QuestionComponent(props) {
                       case "png":
                         return (
                           <a
-                            href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                            href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                           >
                             <img
                               style={{
@@ -250,7 +250,7 @@ export default function QuestionComponent(props) {
                                 width: "50px",
                                 height: "50px",
                               }}
-                              src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                              src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                               alt={`scan`}
                             />
                           </a>

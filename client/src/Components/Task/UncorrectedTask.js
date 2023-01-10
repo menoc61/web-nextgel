@@ -77,7 +77,7 @@ export default function UncorrectedTask(props) {
                                     case "pdf":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           {" "}
@@ -91,7 +91,7 @@ export default function UncorrectedTask(props) {
                                     case "docx":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <Icon
@@ -104,7 +104,7 @@ export default function UncorrectedTask(props) {
                                     case "pptx":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <Icon
@@ -117,7 +117,7 @@ export default function UncorrectedTask(props) {
                                     case "xlsx":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <Icon
@@ -130,7 +130,7 @@ export default function UncorrectedTask(props) {
                                     case "zip":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <Icon name="zip" size="huge" />
@@ -139,7 +139,7 @@ export default function UncorrectedTask(props) {
                                     case "js":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <Icon
@@ -152,7 +152,7 @@ export default function UncorrectedTask(props) {
                                     case "php":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <Icon
@@ -165,7 +165,7 @@ export default function UncorrectedTask(props) {
                                     case "txt":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <Icon
@@ -179,7 +179,7 @@ export default function UncorrectedTask(props) {
                                     case "jpg":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <img
@@ -188,7 +188,7 @@ export default function UncorrectedTask(props) {
                                               width: "50px",
                                               height: "50px",
                                             }}
-                                            src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                            src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                             alt={`scan`}
                                           />
                                         </a>
@@ -196,7 +196,7 @@ export default function UncorrectedTask(props) {
                                     case "jpeg":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <img
@@ -205,7 +205,7 @@ export default function UncorrectedTask(props) {
                                               width: "50px",
                                               height: "50px",
                                             }}
-                                            src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                            src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                             alt={`scan`}
                                           />
                                         </a>
@@ -213,7 +213,7 @@ export default function UncorrectedTask(props) {
                                     case "png":
                                       return (
                                         <a
-                                          href={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                          href={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                           target="_blank"
                                         >
                                           <img
@@ -222,7 +222,7 @@ export default function UncorrectedTask(props) {
                                               width: "50px",
                                               height: "50px",
                                             }}
-                                            src={`https://firebasestorage.googleapis.com/v0/b/smart-closer.appspot.com/o/${file}?alt=media`}
+                                            src={`https://firebasestorage.googleapis.com/v0/b/nextgel.appspot.com/o/${file}?alt=media`}
                                             alt={`scan`}
                                           />
                                         </a>
