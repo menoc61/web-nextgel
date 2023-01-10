@@ -147,7 +147,7 @@ exports.signinController = (req, res) => {
         },
         process.env.JWT_SECRET,
         {
-          expiresIn: "7d",
+          expiresIn: "1d",
         }
       );
       const {
@@ -357,7 +357,7 @@ exports.googleController = (req, res) => {
         User.findOne({ email }).exec((err, user) => {
           if (user) {
             const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET, {
-              expiresIn: "7d",
+              expiresIn: "1d",
             });
             const { _id, email, name, role, picture } = user;
             return res.json({
@@ -377,7 +377,7 @@ exports.googleController = (req, res) => {
               const token = jwt.sign(
                 { _id: data._id },
                 process.env.JWT_SECRET,
-                { expiresIn: "7d" }
+                { expiresIn: "1d" }
               );
               const { _id, email, name, role, picture } = data;
               return res.json({
@@ -454,7 +454,7 @@ exports.facebookController = (req, res) => {
         User.findOne({ email }).exec((err, user) => {
           if (user) {
             const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET, {
-              expiresIn: "7d",
+              expiresIn: "1d",
             });
             const { _id, email, name, role, picture } = user;
             console.log(res);
@@ -475,7 +475,7 @@ exports.facebookController = (req, res) => {
               const token = jwt.sign(
                 { _id: data._id },
                 process.env.JWT_SECRET,
-                { expiresIn: "7d" }
+                { expiresIn: "1d" }
               );
               const { _id, email, name, role, picture } = data;
               return res.json({

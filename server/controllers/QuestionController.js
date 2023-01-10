@@ -7,11 +7,11 @@ const mongoose = require("mongoose");
 const perf = require("execution-time")();
 
 const storages = new Storage({
-  projectId: "smart-closer",
-  keyFilename: "./smart-closer-firebase-adminsdk-75ops-25473d0d1e.json",
+  projectId: "nextgel",
+  keyFilename: "./nextgel-firebase-adminsdk-408ps-639578f95a.json",
 });
 
-const bucket = storages.bucket("gs://smart-closer.appspot.com");
+const bucket = storages.bucket("gs://nextgel.appspot.com");
 
 /*var storage = multer.diskStorage({
   destination: (req, file, cb) => {

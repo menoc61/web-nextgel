@@ -10,12 +10,12 @@ router = express.Router();
 
 // Create new storage instance with Firebase project credentials
 const storages = new Storage({
-  projectId: "smart-closer",
-  keyFilename: "./smart-closer-firebase-adminsdk-75ops-25473d0d1e.json",
+  projectId: "nextgel",
+  keyFilename: "./nextgel-firebase-adminsdk-408ps-639578f95a.json",
 });
 
 // Create a bucket associated to Firebase storage bucket
-const bucket = storages.bucket("gs://smart-closer.appspot.com");
+const bucket = storages.bucket("gs://nextgel.appspot.com");
 
 // Initiating a memory storage engine to store files as Buffer objects
 const uploader = multer({
