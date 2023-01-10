@@ -18,7 +18,7 @@ import FileUploadEdit from "../../utlis/FileUploadEdit";
 import { useHistory } from "react-router";
 import io from "socket.io-client";
 
-const ENDPOINT = "https://closer-server.herokuapp.com/";
+const ENDPOINT = "http://localhost:5000/";
 export default function EditQuestions({ qes }) {
   const socket = io(ENDPOINT);
   const [open, setOpen] = React.useState(false);

@@ -27,7 +27,7 @@ import {
 import io from "socket.io-client";
 import { notificationsApi } from "../../api/api";
 import ReactTimeAgo from "react-time-ago/commonjs/ReactTimeAgo";
-const ENDPOINT = "https://closer-server.herokuapp.com/";
+const ENDPOINT = "http://localhost:5000/";
 function SideBareComponent() {
   const socket = io(ENDPOINT);
   const dispatch = useDispatch();

@@ -122,7 +122,7 @@ function FormCoursesEdit(props) {
       formData.append("multiple_resources", file);
       await axios
         .post(
-          "https://closer-server.herokuapp.com/courses/api/upload",
+          "http://localhost:5000/courses/api/upload",
           formData
         )
         .then((response) => {

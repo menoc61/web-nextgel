@@ -27,7 +27,7 @@ import {
 } from "../../redux/slices/Task";
 import { AddquestionsApi } from "../../api/api";
 import { addQuestion } from "../../redux/slices/questionslice";
-import MultiSelect from "react-multi-select-component";
+import {MultiSelect} from "react-multi-select-component";
 
 export default function ModalTaskFile(props) {
   const currentClass = JSON.parse(localStorage.getItem("idClass"));

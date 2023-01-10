@@ -6,7 +6,7 @@ export const getNbrTasksAttribue = createAsyncThunk(
   async (taskDetail) => {
     const { data } = await axios.get(
      
-      `https://closer-server.herokuapp.com/task/StatTaskAttribue?idUser=${taskDetail.idUser}&idClass=${taskDetail.idClass}`,
+      `http://localhost:5000/task/StatTaskAttribue?idUser=${taskDetail.idUser}&idClass=${taskDetail.idClass}`,
     );
 
     return data;
@@ -17,7 +17,7 @@ export const getNbrTasksRemis = createAsyncThunk(
   "Task/getNbrTasksRemis",
   async (id) => {
     const { data } = await axios.get(
-      `https://closer-server.herokuapp.com/task/StatTaskRemis/${id}`
+      `http://localhost:5000/task/StatTaskRemis/${id}`
     );
 
     return data;
@@ -27,7 +27,7 @@ export const getNbrTasksMissing = createAsyncThunk(
   "Task/getNbrTasksMissing",
   async (id) => {
     const { data } = await axios.get(
-      `https://closer-server.herokuapp.com/task/StatTaskMissing/${id}`
+      `http://localhost:5000/task/StatTaskMissing/${id}`
     );
 
     return data;
@@ -38,7 +38,7 @@ export const getTaskByTeacher = createAsyncThunk(
   async (taskDetail) => {
     console.log(taskDetail);
     const { data } = await axios.get(
-      `https://closer-server.herokuapp.com/task/teacher?idUser=${taskDetail.idUser}&idClass=${taskDetail.idClass}`,
+      `http://localhost:5000/task/teacher?idUser=${taskDetail.idUser}&idClass=${taskDetail.idClass}`,
     );
 
     return data;
@@ -49,7 +49,7 @@ export const getDetailTask = createAsyncThunk(
   "Task/getDetailTasks",
   async (id) => {
     const { data } = await axios.get(
-      `https://closer-server.herokuapp.com/task/DetailTask/${id}`
+      `http://localhost:5000/task/DetailTask/${id}`
     );
 
     return data;
@@ -57,13 +57,13 @@ export const getDetailTask = createAsyncThunk(
 );
 
 export const getTasks = createAsyncThunk("Task/getTasks", async () => {
-  const { data } = await axios.get("https://closer-server.herokuapp.com/task");
+  const { data } = await axios.get("http://localhost:5000/task");
 
   return data;
 });
 export const assignTask = createAsyncThunk("Task/assignTask", async (task) => {
   const { response } = await axios.post(
-    "https://closer-server.herokuapp.com/task/assign",
+    "http://localhost:5000/task/assign",
     task
   );
 
@@ -72,7 +72,7 @@ export const assignTask = createAsyncThunk("Task/assignTask", async (task) => {
 
 export const postTasks = createAsyncThunk("Task/postTask", async (task) => {
   const { response } = await axios.post(
-    "https://closer-server.herokuapp.com/task",
+    "http://localhost:5000/task",
     task
   );
 
@@ -88,7 +88,7 @@ export const addUploadFile = createAsyncThunk(
     }
 
     const response = await axios.post(
-      "https://closer-server.herokuapp.com/task/uploadFile",
+      "http://localhost:5000/task/uploadFile",
       formData
     );
     console.log(response.data);
@@ -99,7 +99,7 @@ export const addUploadFile = createAsyncThunk(
 /*upload file */
 export const uploadFile = createAsyncThunk("Task/uploadFile", async (files) => {
   const promise = await axios
-    .post("https://closer-server.herokuapp.com/task/uploadFile", files)
+    .post("http://localhost:5000/task/uploadFile", files)
     .then((response) => {
       console.log("this is response");
       console.log(response);
@@ -122,7 +122,7 @@ export const assignAfterSave = createAsyncThunk(
   async (task) => {
     console.log(task);
     const promise = await axios.post(
-      `https://closer-server.herokuapp.com/task/assignAfterSave/`,
+      `http://localhost:5000/task/assignAfterSave/`,
       task
     ).then((response) => {
       const data = response.data;
@@ -138,7 +138,7 @@ export const updateTaskStatus = createAsyncThunk(
   "Task/updateTaskStatus",
   async (task) => {
     const { response } = await axios.put(
-      `https://closer-server.herokuapp.com/task/taskStatus/${task._id}`,
+      `http://localhost:5000/task/taskStatus/${task._id}`,
       task
     );
 
@@ -148,7 +148,7 @@ export const updateTaskStatus = createAsyncThunk(
 export const updateTask = createAsyncThunk("Task/UpdateTask", async (task) => {
   // console.log(task)
   const promise = await axios.put(
-    `https://closer-server.herokuapp.com/task/${task._id}`,
+    `http://localhost:5000/task/${task._id}`,
     task
   ).then((response) => {
     const data = response.data;
@@ -165,7 +165,7 @@ export const deleteTask = createAsyncThunk("Task/deleteTask", async (id) => {
  
   
   const  promise  = await axios.delete(
-    `https://closer-server.herokuapp.com/task/deleteTask/${id}`
+    `http://localhost:5000/task/deleteTask/${id}`
     
   ).then((response) => {
     const data = response.data;

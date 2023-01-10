@@ -21,7 +21,7 @@ const documentData = JSON.parse(localStorage.getItem("user"));
 const schedulerDataSource = {
   store: new CustomStore({
     load: () => {
-      return fetch("https://closer-server.herokuapp.com/scheduler/")
+      return fetch("http://localhost:5000/scheduler/")
         .then(handleErrors)
         .then((response) => response.json());
     },
@@ -36,7 +36,7 @@ const schedulerDataSource = {
         allDay: values.allDay,
         postOwner: documentData._id,
       };
-      return fetch("https://closer-server.herokuapp.com/scheduler/", {
+      return fetch("http://localhost:5000/scheduler/", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
@@ -47,14 +47,14 @@ const schedulerDataSource = {
         .then((response) => response.json());
     },
     remove: (key) => {
-      return fetch(`https://closer-server.herokuapp.com/scheduler/${key._id}`, {
+      return fetch(`http://localhost:5000/scheduler/${key._id}`, {
         method: "DELETE",
       })
         .then(handleErrors)
         .then((response) => response.json());
     },
     update: (key, values) => {
-      return fetch(`https://closer-server.herokuapp.com/scheduler/${key._id}`, {
+      return fetch(`http://localhost:5000/scheduler/${key._id}`, {
         method: "PUT",
         body: JSON.stringify(values),
         headers: {

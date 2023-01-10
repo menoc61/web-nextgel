@@ -69,7 +69,6 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "type": "module",
     "extends": [
       "react-app",
       "react-app/jest"

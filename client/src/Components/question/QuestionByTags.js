@@ -25,7 +25,7 @@ import { Link, useParams } from "react-router-dom";
 import EditQuestions from "./EditQuestionComponent";
 import io from "socket.io-client";
 
-const ENDPOINT = "https://closer-server.herokuapp.com/";
+const ENDPOINT = "http://localhost:5000/";
 
 export default function QuestionByTags(props) {
   const socket = io(ENDPOINT);

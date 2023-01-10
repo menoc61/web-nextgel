@@ -4,18 +4,15 @@ import Select from "react-select";
 import SemanticDatepicker from "react-semantic-ui-datepickers";
 
 import {
-  Dropdown,
   Button,
   Form,
   Grid,
-  Rail,
   Segment,
   TextArea,
-  Label,
   Header,
 } from "semantic-ui-react";
 import { useSelector } from "react-redux";
-import MultiSelect from "react-multi-select-component";
+import {MultiSelect} from "react-multi-select-component";
 
 export default function AddTask(props) {
   const currentClass = JSON.parse(localStorage.getItem("idClass"));

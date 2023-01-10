@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Button, Modal, Form,  } from "semantic-ui-react";
 //import { useHistory } from "react-router-dom";
@@ -7,7 +8,7 @@ import {
   fetchInvitationclassId,
 } from "../../redux/slices/classsline";
 import { ClassInvitationApi } from "../../api/api";
-import MultiSelect from "react-multi-select-component";
+import { MultiSelect } from "react-multi-select-component";
 
 export default function AddUserToClassComponent(props) {
   const dispatch = useDispatch();

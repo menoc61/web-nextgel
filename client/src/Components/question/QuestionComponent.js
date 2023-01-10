@@ -26,7 +26,7 @@ import { isAuth } from "../../helpers/auth";
 import io from "socket.io-client";
 import { AddquestionsApi } from "../../api/api";
 
-const ENDPOINT = "https://closer-server.herokuapp.com/";
+const ENDPOINT = "http://localhost:5000/";
 
 export default function QuestionComponent(props) {
   const { idd } = useParams();

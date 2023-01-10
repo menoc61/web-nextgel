@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const rendreTask = createAsyncThunk("Task/rendreTask", async (grade) => {
   const promise = await axios.put(
-    `https://closer-server.herokuapp.com/grade/rendreTask/`,
+    `http://localhost:5000/grade/rendreTask/`,
     grade
   ).then((response) => {
     console.log(response);
@@ -19,7 +19,7 @@ export const getDetailByTaskByStudent = createAsyncThunk(
   "Grade/getDetailByTaskByStudent",
   async (id) => {
     const promise = await axios.get(
-      `https://closer-server.herokuapp.com/grade/DetailByTaskByStudent/${id}`
+      `http://localhost:5000/grade/DetailByTaskByStudent/${id}`
     ).then((response) => {
 
       const data = response.data;
@@ -35,7 +35,7 @@ export const getListQuestionTasksById = createAsyncThunk(
   "Grade/getListQuestionById",
   async (id) => {
     const { data } = await axios.get(
-      `https://closer-server.herokuapp.com/grade/listQuestion/${id}`
+      `http://localhost:5000/grade/listQuestion/${id}`
     );
 
     return data;
@@ -45,7 +45,7 @@ export const assignGradeToStudent = createAsyncThunk(
   "Task/UpdateTask",
   async (grade) => {
     const promise = await axios.put(
-      `https://closer-server.herokuapp.com/grade/`,
+      `http://localhost:5000/grade/`,
       grade
     ).then((response) => {
       const data = response.data;
@@ -60,7 +60,7 @@ export const getTasksById = createAsyncThunk(
   "Grade/getTasksById",
   async (taskDetail) => {
     const promise = await axios.get(
-      `https://closer-server.herokuapp.com/grade?idUser=${taskDetail.idUser}&idClass=${taskDetail.idClass}`
+      `http://localhost:5000/grade?idUser=${taskDetail.idUser}&idClass=${taskDetail.idClass}`
     ).then((response) => {
       const data = response.data;
       return data;
@@ -72,7 +72,7 @@ export const getTasksById = createAsyncThunk(
 );
 
 export const getGrades = createAsyncThunk("Grade/getgrade", async () => {
-  const { data } = await axios.get("https://closer-server.herokuapp.com/grade");
+  const { data } = await axios.get("http://localhost:5000/grade");
 
   return data;
 });
@@ -81,7 +81,7 @@ export const postGrades = createAsyncThunk(
   "Grade/posteGrade",
   async (grade) => {
     const { response } = await axios.post(
-      "https://closer-server.herokuapp.com/grade",
+      "http://localhost:5000/grade",
       grade
     );
 

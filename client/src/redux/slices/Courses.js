@@ -5,7 +5,7 @@ export const RetrieveCourses = createAsyncThunk(
   "Courses/RetrieveCourses",
   async () => {
     const { data } = await axios.get(
-      "https://closer-server.herokuapp.com/courses"
+      "http://localhost:5000/courses"
     );
 
     return data;
@@ -16,7 +16,7 @@ export const RetrieveCoursesByIdSeance = createAsyncThunk(
   "Courses/RetrieveCoursesByIdSeance",
   async (idSeance) => {
     const { data } = await axios.get(
-      "https://closer-server.herokuapp.com/courses/findByIdSeance/" + idSeance
+      "http://localhost:5000/courses/findByIdSeance/" + idSeance
     );
 
     return data;
@@ -27,7 +27,7 @@ export const RetrieveCoursesByIdClass = createAsyncThunk(
   "Courses/RetrieveCoursesByIdClass",
   async (idClass) => {
     const { data } = await axios.get(
-      "https://closer-server.herokuapp.com/courses/findByIdClass/" + idClass
+      "http://localhost:5000/courses/findByIdClass/" + idClass
     );
 
     return data;
@@ -58,7 +58,7 @@ export const AddCourses = (
   formData.append("idClass", idClass);
 
   const promise = await axios
-    .post("https://closer-server.herokuapp.com/courses/", formData)
+    .post("http://localhost:5000/courses/", formData)
     .then((response) => {
       const CurrentClass = JSON.parse(localStorage.getItem("idClass"));
       console.log(CurrentClass._id);
@@ -94,7 +94,7 @@ export const UpdateCourses = (
   console.log(cour);
 
   const promise = await axios
-    .put("https://closer-server.herokuapp.com/courses/" + coursesId, cour)
+    .put("http://localhost:5000/courses/" + coursesId, cour)
     .then((response) => {
       const CurrentClass = JSON.parse(localStorage.getItem("idClass"));
       console.log(CurrentClass._id);
@@ -119,7 +119,7 @@ export const GetCoursesById = createAsyncThunk(
 
   async (coursesId) => {
     const promise = await axios
-      .get("https://closer-server.herokuapp.com/courses/" + coursesId)
+      .get("http://localhost:5000/courses/" + coursesId)
 
       .then((response) => {
         console.log("this is response");
@@ -153,7 +153,7 @@ export const DeleteCourses = createAsyncThunk(
 
   async (coursesId) => {
     const promise = await axios
-      .delete("https://closer-server.herokuapp.com/courses/" + coursesId)
+      .delete("http://localhost:5000/courses/" + coursesId)
 
       .then((response) => {
         console.log("this is response");

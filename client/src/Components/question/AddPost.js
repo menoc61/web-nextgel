@@ -12,7 +12,7 @@ import TagsInput from "react-tagsinput";
 import "react-tagsinput/react-tagsinput.css";
 import { useHistory } from "react-router";
 import io from "socket.io-client";
-const ENDPOINT = "https://closer-server.herokuapp.com/";
+const ENDPOINT = "http://localhost:5000/";
 function AddPost() {
   const history = useHistory();
 

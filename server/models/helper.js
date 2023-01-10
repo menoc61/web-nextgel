@@ -5,9 +5,9 @@ const Q = require("q");
 
 function upload(file) {
   cloudinary.config({
-    cloud_name: "closer-no-limit",
-    api_key: "166566167918594",
-    api_secret: "IauHxtkDxF-ocdjPXtiaI7X2fgg",
+    cloud_name: "ditgi9w4s",
+    api_key: "143734471285483",
+    api_secret: "vnLN9FDIKi8L8MNRf1ziPM2scUo",
   });
 
   return new Q.Promise((resolve, reject) => {

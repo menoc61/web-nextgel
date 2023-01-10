@@ -20,7 +20,7 @@ const Private = ({ history }) => {
   const loadProfile = () => {
     const token = getCookie("token");
     axios
-      .get(`https://closer-server.herokuapp.com/api/user/${isAuth()._id}`, {
+      .get(`http://localhost:5000/api/user/${isAuth()._id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

@@ -1,24 +1,24 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://closer-server.herokuapp.com/",
+  baseURL: "http://localhost:5000/",
   responseType: "json",
 });
 export const notificationsApi = {
   async getNotification(id) {
-    const { data } = await api.get(`https://closer-server.herokuapp.com/notification/${id}`);
+    const { data } = await api.get(`http://localhost:5000/notification/${id}`);
     return data;
   }, 
   async addNotification(notif) {
-    const { data } = await api.post(`https://closer-server.herokuapp.com/notification/add`,notif);
+    const { data } = await api.post(`http://localhost:5000/notification/add`,notif);
     return data;
   },
   async putNotification(id) {
-    const { data } = await api.put(`https://closer-server.herokuapp.com/notification/update/${id}`);
+    const { data } = await api.put(`http://localhost:5000/notification/update/${id}`);
     return data;
   },
   async deleteNotification(id) {
-    const { data } = await api.delete(`https://closer-server.herokuapp.com/notification/delete/${id}`);
+    const { data } = await api.delete(`http://localhost:5000/notification/delete/${id}`);
     return data;
   },
 };

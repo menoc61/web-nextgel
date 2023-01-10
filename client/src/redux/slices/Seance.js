@@ -4,7 +4,7 @@ import { getList, updateSeance, addSeance } from "../../api/SeanceApi";
 
 export const RetrieveSeances = createAsyncThunk("/Seance", async () => {
   const { data } = await axios.get(
-    "https://closer-server.herokuapp.com/seance"
+    "http://localhost:5000/seance"
   );
 
   return data;
@@ -14,7 +14,7 @@ export const AddSeance = createAsyncThunk(
   "Seance/AddSeance",
   async (seance) => {
     const promise = await axios
-      .post("https://closer-server.herokuapp.com/seance/", seance)
+      .post("http://localhost:5000/seance/", seance)
 
       .then((response) => {
         console.log("this is response");
@@ -37,7 +37,7 @@ export const GetSeancesById = createAsyncThunk(
   "Seance/GetSeancesById",
   async (seanceId) => {
     const promise = await axios
-      .get("https://closer-server.herokuapp.com/seance/" + seanceId)
+      .get("http://localhost:5000/seance/" + seanceId)
 
       .then((response) => {
         console.log("this is response");
@@ -61,7 +61,7 @@ export const GetSeancesByIdClass = createAsyncThunk(
   async (idClass) => {
     const promise = await axios
       .get(
-        "https://closer-server.herokuapp.com/seance/findByIdClass/" + idClass
+        "http://localhost:5000/seance/findByIdClass/" + idClass
       )
 
       .then((response) => {
@@ -87,7 +87,7 @@ export const EditSeances = createAsyncThunk(
     //console.log(seanceId);
 
     const promise = await axios
-      .put("https://closer-server.herokuapp.com/seance/" + seance._id, seance)
+      .put("http://localhost:5000/seance/" + seance._id, seance)
 
       .then((response) => {
         console.log("this is response");
@@ -111,7 +111,7 @@ export const DeleteSeance = createAsyncThunk(
 
   async (seanceId) => {
     const promise = await axios
-      .delete("https://closer-server.herokuapp.com/seance/" + seanceId)
+      .delete("http://localhost:5000/seance/" + seanceId)
 
       .then((response) => {
         console.log("this is response");

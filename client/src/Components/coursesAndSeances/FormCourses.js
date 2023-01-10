@@ -25,7 +25,7 @@ import { useParams } from "react-router";
 import { isAuth, signout } from "../../helpers/auth";
 import { notificationsApi } from "../../api/api";
 import io from "socket.io-client";
-const ENDPOINT = "https://closer-server.herokuapp.com/";
+const ENDPOINT = "http://localhost:5000/";
 
 function FormCourses(props) {
   const socket = io(ENDPOINT);

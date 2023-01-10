@@ -16,12 +16,12 @@ import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import Home from "./Components/home/Home";
 import HomeCloser from "./Components/home/HomeCloser";
 import HomeClass from "./Components/home/HomeClass";
-import "./material.css";
+// import "./material.css";
 import Main from "./Components/Main/Main";
 import Room from "./Components/Room/Room";
 import WhiteBoard from "./Components/container/WhiteBoard";
 import Page_404 from "./Components/home/404";
-import NotificationComponent from "./Components/notifications/NotificationComponent";
+// import NotificationComponent from "./Components/notifications/NotificationComponent";
 
 TimeAgo.addDefaultLocale(en);
 TimeAgo.addLocale(ru);
@@ -146,6 +146,7 @@ function App() {
                <Route
             path="/404"
             exact
+            // eslint-disable-next-line react/jsx-pascal-case
             render={(props) => <Page_404 {...props} />}
           />
           <Route exact path="/meet" component={Main} />
